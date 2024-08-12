@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http//schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    tool:showIn ="navigation_view"
+    tools:ignore="NamespaceTypo">
+    <group
+        android:checkableBehavior="single"
+        >
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/baseline_account_balance_24"
+            android:title="My Account" />
+
+        <item
+            android:icon="@drawable/baseline_local_phone_24"
+            android:id="@+id/nav_Contact"
+            android:title="Contact" />
+
+        <item
+            android:icon="@drawable/baseline_directions_walk_24"
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+
+
+    </group>
+
+
+</menu>

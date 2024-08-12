@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.MCTApp"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Mother.ChooseChild"
+            android:exported="false" />
+        <activity
+            android:name=".Mother.AddChild"
+            android:exported="false" />
+        <activity
+            android:name=".Mother.EditChild"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.AddDoctorDrug"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.EditDrugDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.DoctorProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.AddInstruction"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.EditDoctorInstruction"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.DoctorContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.DoctorInstructionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.DoctorDrugActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.EditDoctorAccount"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.EditMotherAccount"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ManageDoctors"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ManageMother"
+            android:exported="false" />
+        <activity
+            android:name=".Mother.ChildDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Mother.RecordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Mother.InstructionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Mother.AddDrug"
+            android:exported="false" />
+        <activity
+            android:name=".Mother.EditDrugActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Mother.DrugActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Mother.MotherProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Mother.ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Mother.TemperatureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.MainAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.DoctorRegister"
+            android:exported="false" />
+        <activity
+            android:name=".Mother.MotherRegister"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.MainDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Mother.MainMotherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

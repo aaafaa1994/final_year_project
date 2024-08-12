@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">39 Degree Application </string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+</resources>
